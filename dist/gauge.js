@@ -465,10 +465,10 @@
         this.canvas = window.G_vmlCanvasManager.initElement(this.canvas);
       }
       this.ctx = this.canvas.getContext('2d');
-      h = this.canvas.clientHeight;
-      w = this.canvas.clientWidth;
-      this.canvas.height = h;
-      this.canvas.width = w;
+     // h = this.canvas.clientHeight;
+      //w = this.canvas.clientWidth;
+      //this.canvas.height = h;
+      //this.canvas.width = w;
       this.gp = [new GaugePointer(this)];
       this.setOptions();
     }
